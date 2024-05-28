@@ -1,0 +1,76 @@
+(footprint "pad_1_2"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(locked yes)
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.9 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "0b7e1f6a-4300-4f36-bbe9-a68f1473cb5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GND"
+		(at 0 2.9 180)
+		(layer "F.Fab")
+		(uuid "5f234917-5e11-45f0-865f-b0f0e5b5317b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "otter:pad_1_2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "f6f31ba9-32da-4034-b5bf-0a5ae2554d73")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "b29228df-1006-4a08-b98f-26023a0702ce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "05e911b3-05d9-4bc0-a8c4-786caf2fae2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr through_hole)
+	(pad "1" smd rect
+		(at 0 0 180)
+		(size 2 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d40efb92-d24b-48e4-911e-d20fc1f6284f")
+	)
+)

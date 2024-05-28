@@ -1,0 +1,104 @@
+(footprint "C_0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor 0805")
+	(tags "C Capacitor 0805")
+	(property "Reference" "REF**"
+		(at 2.075 0.35 180)
+		(layer "F.SilkS")
+		(uuid "fdf924e8-ffbd-443c-bbc3-b6a3433ccba8")
+		(effects
+			(font
+				(size 0.45 0.45)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "4u7"
+		(at 0 -2.55 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e265f50d-b725-459f-91b2-41fc98f8321a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "otter:C_0805"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "ca337c02-ac73-4936-bbba-8b8ad747a83a")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "8fc10e40-9271-453a-bcb5-36285a4b655d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "28784c8c-dd61-4332-8078-5becd530400b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d27ab925-f5ec-4160-88dd-7eac4287daa6")
+	)
+	(pad "1" smd rect
+		(at -0.95 0 180)
+		(size 0.7 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d7a78a60-89fa-4aed-8863-a5d065471533")
+	)
+	(pad "2" smd rect
+		(at 0.95 0 180)
+		(size 0.7 1.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "846cd272-eb11-402c-ab9c-a5be4191225f")
+	)
+	(model "${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
